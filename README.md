@@ -1,7 +1,7 @@
 
 # spring-boot-file-upload-download-rest-api-example
 
-#### introduce
+#### Introduce
 Uploading an Downloading files with Spring Boot
 
 #### Enviroment
@@ -16,16 +16,6 @@ $ gradle -version
 ------------------------------------------------------------
 Gradle 7.0.2
 ------------------------------------------------------------
-
-Build time:   2021-05-14 12:02:31 UTC
-Revision:     1ef1b260d39daacbf9357f9d8594a8a743e2152e
-
-Kotlin:       1.4.31
-Groovy:       3.0.7
-Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
-JVM:          13.0.1 (Oracle Corporation 13.0.1+9)
-OS:           Linux 5.4.0-73-generic amd64
-
 ```
 
 #### Steps to Setup
