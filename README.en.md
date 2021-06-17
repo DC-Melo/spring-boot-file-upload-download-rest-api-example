@@ -1,36 +1,56 @@
+
 # spring-boot-file-upload-download-rest-api-example
 
-#### Description
-des
+#### introduce
+Uploading an Downloading files with Spring Boot
 
-#### Software Architecture
-Software architecture description
+#### Enviroment
+```
+$ uname -a
+Linux wtdcserver 5.4.0-73-generic #82~18.04.1-Ubuntu SMP Fri Apr 16 15:10:02 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+$ java -version
+java version "13.0.1" 2019-10-15
+Java(TM) SE Runtime Environment (build 13.0.1+9)
+Java HotSpot(TM) 64-Bit Server VM (build 13.0.1+9, mixed mode, sharing)
+$ gradle -version
+------------------------------------------------------------
+Gradle 7.0.2
+------------------------------------------------------------
 
-#### Installation
+Build time:   2021-05-14 12:02:31 UTC
+Revision:     1ef1b260d39daacbf9357f9d8594a8a743e2152e
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Kotlin:       1.4.31
+Groovy:       3.0.7
+Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
+JVM:          13.0.1 (Oracle Corporation 13.0.1+9)
+OS:           Linux 5.4.0-73-generic amd64
 
-#### Instructions
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Steps to Setup
+1. Clone the repository
+```
+git clone https://gitee.com/dc-melo/spring-boot-file-upload-download-rest-api-example.git
 
-#### Contribution
+```
+2. Specify the file uploads directory
+```
+cd spring-boot-file-upload-download-rest-api-example
+```
+Open src/main/resources/application.properties file and change the property file.upload-dir to the path where you want the uploaded files to be stored.
+file.upload-dir=uploads
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+3. build the application 
+```
+./gradlew build
+```
+4. run the jar application
 
+```
+java -jar target/file-demo-0.0.1-SNAPSHOT.jar
+```
 
-#### Gitee Feature
+5. open the web 
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+That's it! The application can be accessed at http://localhost:8080.
