@@ -35,19 +35,19 @@ Gradle 7.0.2
 ------------------------------------------------------------
 ```
 1. Clone the repository
-```
+```sh
 git clone https://gitee.com/dc-melo/spring-boot-file-upload-download-rest-api-example.git
 
 ```
 2. Specify the file uploads directory
-```
+```sh
 cd spring-boot-file-upload-download-rest-api-example
 ```
 Open src/main/resources/application.properties file and change the property file.upload-dir to the path where you want the uploaded files to be stored.
 file.upload-dir=uploads
 
 3. build the application 
-```
+```sh
 ./gradlew build
 ```
 ![spring_web_build](readme_files/spring_web_build.png)

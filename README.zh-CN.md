@@ -111,4 +111,4 @@ $ standard-readme-spec
 
 ## 使用许可
 
-[MIT](LICENSE) © DC Melo
+[MIT](LICENSE) © DC Melo王江
