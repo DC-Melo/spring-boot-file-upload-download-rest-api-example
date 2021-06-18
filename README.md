@@ -44,3 +44,4 @@ java -jar target/file-demo-0.0.1-SNAPSHOT.jar
 5. open the web 
 
 That's it! The application can be accessed at http://localhost:8080.
+![spring_web](readme_files/spring_web.png)
