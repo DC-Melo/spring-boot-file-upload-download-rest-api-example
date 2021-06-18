@@ -1,10 +1,10 @@
 # spring-boot-file-upload-download-rest-api-example
 
-#### 介绍
+#### 项目背景
 使用gradle,spring-boot 上传和现在文件
 
 #### 软件架构
-软件架构说明
+编译运行环境
 ```
 $ uname -a
 Linux wtdcserver 5.4.0-73-generic #82~18.04.1-Ubuntu SMP Fri Apr 16 15:10:02 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
@@ -20,7 +20,7 @@ Gradle 7.0.2
 ------------------------------------------------------------
 ```
 
-#### 安装教程
+#### 编译安装
 
 1. 克隆仓库
 ```
@@ -41,12 +41,25 @@ file.upload-dir=uploads
 
 #### 使用说明
 
-4. 运行jar包
+1. 运行jar包
 
 ```
 java -jar build/libs/file-demo-0.0.1-SNAPSHOT.jar 
 ```
 
-5. 打开对应网站
+2. 打开对应网站
 
 在浏览器中打开：http://localhost:8080.
+
+#### 项目负责人
+
+#### 参与贡献
+
+1.  Fork 本仓库
+2.  新建 Feat_xxx 分支
+3.  提交代码
+4.  新建 Pull Request
+
+#### 相关项目
+
+#### 开源协议

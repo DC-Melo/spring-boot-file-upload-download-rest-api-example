@@ -1,7 +1,7 @@
 
 # spring-boot-file-upload-download-rest-api-example
 
-#### Introduce
+#### Background
 Uploading an Downloading files with Spring Boot
 
 #### Enviroment
@@ -18,7 +18,7 @@ Gradle 7.0.2
 ------------------------------------------------------------
 ```
 
-#### Steps to Setup
+#### Build and Install
 1. Clone the repository
 ```
 git clone https://gitee.com/dc-melo/spring-boot-file-upload-download-rest-api-example.git
@@ -35,13 +35,27 @@ file.upload-dir=uploads
 ```
 ./gradlew build
 ```
-4. run the jar application
+![spring_web_build](readme_files/spring_web_build.png)
+
+#### Usage
+1. run the jar application
 
 ```
 java -jar target/file-demo-0.0.1-SNAPSHOT.jar
 ```
+![spring_web_run](readme_files/spring_web_run.png)
 
-5. open the web 
+2. open the web 
 
 That's it! The application can be accessed at http://localhost:8080.
-![spring_web](readme_files/spring_web.png)
+![spring_web_result](readme_files/spring_web_result.png)
+
+#### Badge
+
+#### Maintainers
+
+#### Related Efforts
+
+#### Related Project
+
+#### License
